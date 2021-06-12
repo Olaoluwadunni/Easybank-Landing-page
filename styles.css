@@ -1,0 +1,49 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+body    {
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10em 1em 10em;
+}
+.logo   {
+    align-self: center;
+}
+nav {
+    align-self: center;
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li   {
+    margin-right: 30px;
+    color:  hsl(0 0% 70%);
+    font-size: 18px;
+}
+.request-btn {
+   border: none;
+   border-radius: 3em;
+   height: 3.6em;
+   width: 13.5em;
+   background-image: linear-gradient(75deg, rgb(50,207,114), rgb(44,187,194)) ;
+   color: hsl(0, 0%, 100%);
+   font-size: 18px;
+   font-weight: 600;
+}
+.intro  {
+    display: flex;
+}
+.intro  {
+    background-color:  hsl(0, 0%, 98%);
+}
+#mockups    {
+    position: absolute;
+    right: 20em;
+}
